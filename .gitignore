@@ -44,7 +44,7 @@ Temporary Items
 
 #VS directories
 packages/
-PlazaVeaCRMWeb/bin
-PlazaVeaCRMWeb/obj
-PlazaVeaCRMWeb/obj/Debug
-.vs/PlazaVeaCRM/v14
+PlazaVeaCRMWeb/bin/
+PlazaVeaCRMWeb/obj/
+PlazaVeaCRMWeb/obj/Debug/
+.vs/PlazaVeaCRM/v14/
