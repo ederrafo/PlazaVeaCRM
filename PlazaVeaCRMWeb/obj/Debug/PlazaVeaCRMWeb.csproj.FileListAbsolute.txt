@@ -133,6 +133,10 @@ D:\MakuRepos\PlazaVeaCRM\PlazaVeaCRMWeb\bin\Microsoft.Owin.Security.OAuth.xml
 D:\MakuRepos\PlazaVeaCRM\PlazaVeaCRMWeb\bin\Microsoft.Owin.Security.Google.xml
 D:\MakuRepos\PlazaVeaCRM\PlazaVeaCRMWeb\bin\Microsoft.Owin.Security.Twitter.xml
 D:\MakuRepos\PlazaVeaCRM\PlazaVeaCRMWeb\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
-D:\MakuRepos\PlazaVeaCRM\PlazaVeaCRMWeb\obj\Debug\PlazaVeaCRMWeb.csprojResolveAssemblyReference.cache
 D:\MakuRepos\PlazaVeaCRM\PlazaVeaCRMWeb\obj\Debug\PlazaVeaCRMWeb.dll
 D:\MakuRepos\PlazaVeaCRM\PlazaVeaCRMWeb\obj\Debug\PlazaVeaCRMWeb.pdb
+D:\MakuRepos\PlazaVeaCRM\PlazaVeaCRMWeb\obj\Debug\PlazaVeaCRMWeb.csprojResolveAssemblyReference.cache
+D:\MakuRepos\PlazaVeaCRM\PlazaVeaCRMWeb\bin\PagedList.dll
+D:\MakuRepos\PlazaVeaCRM\PlazaVeaCRMWeb\bin\PagedList.Mvc.dll
+D:\MakuRepos\PlazaVeaCRM\PlazaVeaCRMWeb\bin\PagedList.xml
+D:\MakuRepos\PlazaVeaCRM\PlazaVeaCRMWeb\bin\PagedList.Mvc.xml

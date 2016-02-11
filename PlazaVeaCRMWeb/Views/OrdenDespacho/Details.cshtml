@@ -1,0 +1,74 @@
+﻿@model PlazaVeaCRMWeb.Models.OrdenDespacho
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>OrdenDespacho</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.PersonalProgramado.Observacion)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PersonalProgramado.Observacion)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Transporte.NroPlaca)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Transporte.NroPlaca)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FechaDespacho)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FechaDespacho)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TipoPrioridadOrdenDespacho)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TipoPrioridadOrdenDespacho)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.IdConductor)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.IdConductor)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Observacion)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Observacion)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.EstadoOrdenDespacho)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.EstadoOrdenDespacho)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.IdOrdenDespacho }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

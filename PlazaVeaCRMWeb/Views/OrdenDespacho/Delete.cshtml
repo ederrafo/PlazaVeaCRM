@@ -1,0 +1,80 @@
+﻿@model PlazaVeaCRMWeb.Models.OrdenDespacho
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>OrdenDespacho</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.PersonalProgramado.Observacion)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PersonalProgramado.Observacion)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Transporte.NroPlaca)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Transporte.NroPlaca)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FechaDespacho)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FechaDespacho)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TipoPrioridadOrdenDespacho)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TipoPrioridadOrdenDespacho)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.IdConductor)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.IdConductor)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Observacion)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Observacion)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.EstadoOrdenDespacho)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.EstadoOrdenDespacho)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>
